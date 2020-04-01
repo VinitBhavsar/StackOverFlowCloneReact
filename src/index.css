@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.loader{
+  margin-left: 720px;
+  margin-top: 290px;
+}
+.react-paginate ul {
+  display: inline-block flex;
+  }
+  
+  .react-paginate li {
+    display: inline-block;
+    padding: 8px 16px;
+    cursor: pointer;
+    border: 1px solid;
+  }
+
+  .active{
+    background-color: salmon;
+  }
+  
+  @import url(https://fonts.googleapis.com/css?family=opensans:500);
+            .c{
+                text-align: center;
+                display: block;
+                position: relative;
+                width:80%;
+                margin:100px auto;
+            }
+            ._404{
+                font-size: 150px;
+                position: relative;
+                display: inline-block;
+                z-index: 2;
+                height: 100px;
+                letter-spacing: 15px;
+            }
+            ._1{
+                text-align:center;
+                display:block;
+                position:relative;
+                letter-spacing: 12px;
+                font-size: 4em;
+                height: 70px;
+                line-height: 80%;
+            }
+            ._2{
+                text-align:center;
+                display:block;
+                position: relative;
+                font-size: 20px;
+                height: 70px;
+            }
+           
+            .mybtn{
+                background-color: rgb( 255, 255, 255 );
+                position: relative;
+                display: inline-block;
+                width: 358px;
+                padding: 5px;
+                z-index: 5;
+                font-size: 25px;
+                margin:0 auto;
+                color:#33cc99;
+                text-decoration: none;
+                margin-right: 10px
+            }
