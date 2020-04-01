@@ -82,7 +82,7 @@ class ViewProfile extends Component {
                                 style={{ width: "14rem", height: "18rem", border: "2px solid opacity 0.5", backgroundColor: "#d6d9dc" }}>
                                 <div className="card-body">
                                     <img className="card-img" src={this.state.profileImage !== null ?
-                                        `http://192.168.101.93/Images/${this.state.profileImage}` : "/images/hMDvl.jpg"
+                                        `http://{YourLocalHostAddress}/Images/${this.state.profileImage}` : "/images/hMDvl.jpg"
                                     } alt="Profile Pic" width="128" height="128"
                                         style={{ width: 128, marginLeft: 15, marginTop: 13, border: "1px solid dark" }} />
                                 </div>

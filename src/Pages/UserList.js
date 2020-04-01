@@ -90,7 +90,7 @@ class UserList extends Component {
                                         <Link to={`/profile/${users.user_id}`}>
                                             <img key={users.user_id} className="img-responsive img-rounded"
                                                 src={users.imageName === null ? "http://placehold.it/256/256" :
-                                                    `http://192.168.101.93/Images/${users.imageName}`
+                                                    `http://{YourlocalhostAddress}/Images/${users.imageName}`
                                                 }
                                                 alt="profile pic" width="64" height="64" />
                                         </Link>

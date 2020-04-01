@@ -142,7 +142,7 @@ class Login extends Component {
         return (
             <React.Fragment>
                 <div className="login">
-                    <div className="app flex-row align-items-center">
+                    <div className="app flex-row align-items-center pt-5 m-5">
                         <Container>
                             <Row className="justify-content-center">
                                 <Col md="4">
